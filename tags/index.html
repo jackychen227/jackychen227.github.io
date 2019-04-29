@@ -165,44 +165,44 @@
 
         
 
-        <% if(page.reward){ %>
+        
 <div class="page-reward">
-    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">Reward</a>
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
 </div>
-<% } %>
+
 
 
         
 
-    </%></%></article>
-    <% if(page.reward){ %>
+    </article>
+    
 <div id="reward" class="page-modal reward-lay">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <h3 class="reward-title">
         <i class="icon icon-quote-left"></i>
-        <%=theme.reward.title %>
+        谢谢~
         <i class="icon icon-quote-right"></i>
-    </%=theme.reward.title></h3>
+    </h3>
     <div class="reward-content">
-        <% var wechat="theme.reward.wechat;" alipay="theme.reward.alipay;" %>
+        
         <div class="reward-code">
-            <img id="rewardCode" src="<%- url_for(wechat || alipay) %>" alt="打赏二维码">
+            <img id="rewardCode" src="/img/wechat.jpg" alt="打赏二维码">
         </div>
-        <% if(!!wechat && !!alipay) { %>
+        
         <label class="reward-toggle">
-            <input id="rewardToggle" type="checkbox" class="reward-toggle-check" data-wechat="<%- url_for(wechat) %>" data-alipay="<%- url_for(alipay) %>">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check" data-wechat="/img/wechat.jpg" data-alipay="/img/alipay.jpg">
             <div class="reward-toggle-ctrol">
-                <span class="reward-toggle-item wechat">wechat</span>
+                <span class="reward-toggle-item wechat">Wechat</span>
                 <span class="reward-toggle-label"></span>
-                <span class="reward-toggle-item alipay">支付宝</span>
+                <span class="reward-toggle-item alipay">Alipay</span>
             </div>
         </label>
-        <% } %>
-    </%></%></%></div>
+        
+    </div>
 </div>
-<% } %>
 
-</%></%></div>
+
+</div>
 
         <footer class="footer">
     <div class="top">
