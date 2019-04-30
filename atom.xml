@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jackychen227.github.io/"/>
-  <updated>2019-04-30T13:20:44.537Z</updated>
+  <updated>2019-04-29T03:31:17.185Z</updated>
   <id>https://jackychen227.github.io/</id>
   
   <author>
@@ -15,40 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Hello World11111</title>
-    <link href="https://jackychen227.github.io/zh-cn/Hello-World11111/"/>
-    <id>https://jackychen227.github.io/zh-cn/Hello-World11111/</id>
-    <published>2019-04-30T13:20:44.000Z</published>
-    <updated>2019-04-30T13:20:44.537Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World111</title>
-    <link href="https://jackychen227.github.io/en/Hello-World111/"/>
-    <id>https://jackychen227.github.io/en/Hello-World111/</id>
-    <published>2019-04-30T13:18:05.000Z</published>
-    <updated>2019-04-30T13:18:42.865Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="C" scheme="https://jackychen227.github.io/tags/C/"/>
-    
-      <category term="C++" scheme="https://jackychen227.github.io/tags/C/"/>
-    
-      <category term="qqq" scheme="https://jackychen227.github.io/tags/qqq/"/>
-    
-  </entry>
   
   <entry>
     <title>my-second-blog</title>
