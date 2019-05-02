@@ -253,7 +253,7 @@
     <!-- Valine Comments script -->
     <script>
         var GUEST_INFO = ['nick','mail','link'];
-        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+        var guest_info = 'nick,mail'.split(',').filter(function(item){
           return GUEST_INFO.indexOf(item) > -1
         });
         new Valine({
@@ -262,7 +262,7 @@
             verify: 'false' == 'true',
             appId: "M7uV9GxiiuxkA6LSkTOI33Wd-gzGzoHsz",
             appKey: "poHXP3XWvhsE3U4puz8yFwIm",
-            avatar: "retro",
+            avatar: "mm",
             placeholder: "Add comments here",
             guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
             pageSize: "10"
