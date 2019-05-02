@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://jackychen227.github.io/"/>
+  <link href="https://www.chenqw.xyz/"/>
   <updated>2019-04-29T03:31:17.185Z</updated>
-  <id>https://jackychen227.github.io/</id>
+  <id>https://www.chenqw.xyz/</id>
   
   <author>
     <name>Qingwu Chen</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>my-second-blog</title>
-    <link href="https://jackychen227.github.io/2019/04/29/my-second-blog/"/>
-    <id>https://jackychen227.github.io/2019/04/29/my-second-blog/</id>
+    <link href="https://www.chenqw.xyz/2019/04/29/my-second-blog/"/>
+    <id>https://www.chenqw.xyz/2019/04/29/my-second-blog/</id>
     <published>2019-04-29T02:50:59.000Z</published>
     <updated>2019-04-29T03:31:17.185Z</updated>
     
@@ -29,21 +29,21 @@
     
     </summary>
     
-      <category term="Algorithm" scheme="https://jackychen227.github.io/categories/Algorithm/"/>
+      <category term="Algorithm" scheme="https://www.chenqw.xyz/categories/Algorithm/"/>
     
     
-      <category term="C++" scheme="https://jackychen227.github.io/tags/C/"/>
+      <category term="C++" scheme="https://www.chenqw.xyz/tags/C/"/>
     
-      <category term="Python" scheme="https://jackychen227.github.io/tags/Python/"/>
+      <category term="Python" scheme="https://www.chenqw.xyz/tags/Python/"/>
     
-      <category term="JAVA" scheme="https://jackychen227.github.io/tags/JAVA/"/>
+      <category term="JAVA" scheme="https://www.chenqw.xyz/tags/JAVA/"/>
     
   </entry>
   
   <entry>
     <title>my-first-blog</title>
-    <link href="https://jackychen227.github.io/2019/04/29/my-first-blog/"/>
-    <id>https://jackychen227.github.io/2019/04/29/my-first-blog/</id>
+    <link href="https://www.chenqw.xyz/2019/04/29/my-first-blog/"/>
+    <id>https://www.chenqw.xyz/2019/04/29/my-first-blog/</id>
     <published>2019-04-29T02:15:36.000Z</published>
     <updated>2019-05-02T07:03:30.440Z</updated>
     
@@ -55,19 +55,19 @@
     
     </summary>
     
-      <category term="Coding Language" scheme="https://jackychen227.github.io/categories/Coding-Language/"/>
+      <category term="Coding Language" scheme="https://www.chenqw.xyz/categories/Coding-Language/"/>
     
     
-      <category term="C" scheme="https://jackychen227.github.io/tags/C/"/>
+      <category term="C" scheme="https://www.chenqw.xyz/tags/C/"/>
     
-      <category term="C++" scheme="https://jackychen227.github.io/tags/C/"/>
+      <category term="C++" scheme="https://www.chenqw.xyz/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://jackychen227.github.io/2019/04/28/hello-world/"/>
-    <id>https://jackychen227.github.io/2019/04/28/hello-world/</id>
+    <link href="https://www.chenqw.xyz/2019/04/28/hello-world/"/>
+    <id>https://www.chenqw.xyz/2019/04/28/hello-world/</id>
     <published>2019-04-28T13:22:52.779Z</published>
     <updated>2019-04-28T13:22:52.779Z</updated>
     
