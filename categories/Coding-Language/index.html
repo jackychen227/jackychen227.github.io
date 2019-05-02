@@ -21,17 +21,20 @@
     
     
     <meta name="keywords" content>
-    <meta property="og:type" content="website">
+    <meta name="description" content="Keep coding">
+<meta property="og:type" content="website">
 <meta property="og:title" content="CQW Personal Blog">
 <meta property="og:url" content="https://jackychen227.github.io/categories/Coding-Language/index.html">
 <meta property="og:site_name" content="CQW Personal Blog">
+<meta property="og:description" content="Keep coding">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CQW Personal Blog">
+<meta name="twitter:description" content="Keep coding">
     
         <link rel="alternate" type="application/atom+xml" title="CQW Personal Blog" href="/atom.xml">
     
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
     <script>window.lazyScripts=[]</script>
 
@@ -268,7 +271,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://jackychen227.github.io/categories/Coding-Language/&title=CQW Personal Blog&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://jackychen227.github.io/categories/Coding-Language/&title=CQW Personal Blog&source=Keep coding" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -343,10 +346,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = 'CQW Personal Blog';
+            document.title = 'CQW Blog';
             clearTimeout(titleTime);
         } else {
-            document.title = 'CQW Personal Blog';
+            document.title = 'CQW Blog';
             titleTime = setTimeout(function() {
                 document.title = OriginTitile;
             },2000);

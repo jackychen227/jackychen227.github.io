@@ -45,9 +45,9 @@
     <link href="https://jackychen227.github.io/2019/04/29/my-first-blog/"/>
     <id>https://jackychen227.github.io/2019/04/29/my-first-blog/</id>
     <published>2019-04-29T02:15:36.000Z</published>
-    <updated>2019-04-29T03:31:07.801Z</updated>
+    <updated>2019-05-02T07:03:30.440Z</updated>
     
-    <content type="html"><![CDATA[<p>以下是正文</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="标签插件（Tag-Plugins）"><a href="#标签插件（Tag-Plugins）" class="headerlink" title="标签插件（Tag Plugins）"></a>标签插件（Tag Plugins）</h1><p>标签插件和 Front-matter 中的标签不同，它们是用于在文章中快速插入特定内容的插件。</p><p>引用块<br>在文章中插入引言，可包含作者、来源和标题。</p><p>别号： quote<br><figure class="highlight plain"><figcaption><span>[title] [] [url] [link text]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">code snippet</span><br></pre></td></tr></table></figure></p>]]></content>
     
     <summary type="html">
     

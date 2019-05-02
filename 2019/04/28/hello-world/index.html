@@ -35,7 +35,7 @@
     
         <link rel="alternate" type="application/atom+xml" title="CQW Personal Blog" href="/atom.xml">
     
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
     <script>window.lazyScripts=[]</script>
 
@@ -216,7 +216,7 @@
 
 
         
-        这里可以写作者留言，标签和 hexo 中所有变量及辅助函数等均可调用，示例：<a href="/2019/04/28/hello-world/" target="_blank" rel="external">https://jackychen227.github.io/2019/04/28/hello-world/</a>
+        <a href="/2019/04/28/hello-world/" target="_blank" rel="external">https://jackychen227.github.io/2019/04/28/hello-world/</a>
         
     </div>
     
@@ -255,7 +255,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://jackychen227.github.io/2019/04/28/hello-world/&title=《Hello World》 — CQW Personal Blog&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://jackychen227.github.io/2019/04/28/hello-world/&title=《Hello World》 — CQW Personal Blog&source=Keep coding" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -316,6 +316,30 @@
 
 
 
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'false' == 'true',
+            verify: 'false' == 'true',
+            appId: "M7uV9GxiiuxkA6LSkTOI33Wd-gzGzoHsz",
+            appKey: "poHXP3XWvhsE3U4puz8yFwIm",
+            avatar: "retro",
+            placeholder: "Add comments here",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
 
 
 
@@ -406,7 +430,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://jackychen227.github.io/2019/04/28/hello-world/&title=《Hello World》 — CQW Personal Blog&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://jackychen227.github.io/2019/04/28/hello-world/&title=《Hello World》 — CQW Personal Blog&source=Keep coding" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -481,10 +505,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = 'CQW Personal Blog';
+            document.title = 'CQW Blog';
             clearTimeout(titleTime);
         } else {
-            document.title = 'CQW Personal Blog';
+            document.title = 'CQW Blog';
             titleTime = setTimeout(function() {
                 document.title = OriginTitile;
             },2000);
