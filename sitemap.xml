@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.chenqw.xyz/2019/04/29/my-first-blog/</loc>
+    
+    <lastmod>2019-05-06T14:29:20.510Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.chenqw.xyz/2019/04/29/my-second-blog/</loc>
+    
+    <lastmod>2019-05-06T14:28:28.454Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.chenqw.xyz/tags/index.html</loc>
     
     <lastmod>2019-05-06T14:24:29.094Z</lastmod>
@@ -19,20 +33,6 @@
     <loc>https://www.chenqw.xyz/2019/05/06/hello-world/</loc>
     
     <lastmod>2019-05-06T14:10:53.758Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.chenqw.xyz/2019/04/29/my-first-blog/</loc>
-    
-    <lastmod>2019-05-06T14:09:23.406Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.chenqw.xyz/2019/04/29/my-second-blog/</loc>
-    
-    <lastmod>2019-04-29T03:31:17.185Z</lastmod>
     
   </url>
   
