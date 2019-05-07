@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.chenqw.xyz/About/index.html</loc>
+    
+    <lastmod>2019-05-07T07:46:31.074Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.chenqw.xyz/2019/05/07/Markdown-Test/</loc>
     
     <lastmod>2019-05-07T06:01:24.446Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://www.chenqw.xyz/categories/index.html</loc>
     
     <lastmod>2019-05-06T14:24:26.470Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.chenqw.xyz/About/index.html</loc>
-    
-    <lastmod>2019-04-29T03:14:01.793Z</lastmod>
     
   </url>
   
